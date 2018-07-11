@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="tub" fetch="https://github.com/abun880007/" />
+<remote name="tub" fetch="https://github.com/Team-UB/" />
 <remote name="phh" fetch="https://github.com/phhusson/" />
 
 <project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="phh" revision="master" />
