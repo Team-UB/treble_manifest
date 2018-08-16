@@ -2,6 +2,10 @@
 <manifest>
 <remote name="phh" fetch="https://github.com/phhusson/" />
 
+<remote  name="tub"
+ 	fetch="https://github.com/team-ub"
+	revision="TUB-Pie" />
+
 <project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="phh" revision="pie" />
 <project path="device/phh/treble" name="device_phh_treble" remote="tub" />
 <project path="vendor/vndk" name="vendor_vndk" remote="phh" revision="master" />
