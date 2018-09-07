@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<project path="vendor/gapps" name="vendor_gapps" remote="tub-gitlab" clone-depth="1" />
+<project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
 </manifest>
