@@ -3,7 +3,7 @@
 <remote name="phh" fetch="https://github.com/phhusson/" />
 
 <remove-project name="platform/build" />
-<project path="build/make" name="platform_build" remote="phh" revision="android-9.0.0_r47-phh">
+<project path="build/make" name="platform_build" remote="phh" revision="android-10.0.0_r2-phh">
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
@@ -58,5 +58,11 @@
 
 <remove-project name="platform/bionic" />
 <project path="bionic" name="platform_bionic" remote="phh" revision="android-10.0.0_r2-phh" />
+
+<remove-project name="platform/bootable/recovery" />
+<project path="bootable/recovery" name="platform_bootable_recovery" remote="phh" revision="android-10.0.0_r2-phh" />
+
+<remove-project name="platform/system/bpf" />
+<project path="system/bpf" name="platform_system_bpf" remote="phh" revision="android-10.0.0_r2-phh" />
 
 </manifest>
